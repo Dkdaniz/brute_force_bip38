@@ -35,7 +35,10 @@
     
     module.exports = (function () {
     
+    //Array com as posições
         var posicoes = [];
+
+    //Array com as Senhas
         var senhas = [];
        
         posicoes = [
@@ -53,6 +56,7 @@
             []
         ];
     
+        //Função que combina as possibilidades
         combinations = function (pos, c, soFar, total) {
             if (pos == c.length) {
                 // LEIA -> caso não deseja ver todas as possibilidades de senhas sendo imprimidas no console coloque um // antes do console.log(soFar)
